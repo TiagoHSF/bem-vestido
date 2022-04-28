@@ -8,7 +8,7 @@
 
 .sidebar-expanded {
   max-width: 90vw;
-  width: 200px;
+  width: 250px;
   max-height: 90vw;
   height: 100%;
   background-color: #234b5a;
@@ -21,3 +21,12 @@
   padding-left: 1rem;
   font-size: 4rem;
 }
+
+.icon-sidebar-comum {
+  position: relative;
+  left: 6rem;
+  top: -1.5rem;
+  color: white;
+  font-weight: 200;
+}
+
