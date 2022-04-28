@@ -1,0 +1,23 @@
+.sidebar {
+  max-width: 90vw;
+  width: 100px;
+  max-height: 90vw;
+  height: 100%;
+  background-color: #234b5a;
+}
+
+.sidebar-expanded {
+  max-width: 90vw;
+  width: 200px;
+  max-height: 90vw;
+  height: 100%;
+  background-color: #234b5a;
+}
+
+.icon {
+  display: flex;
+  color: white;
+  padding-top: 10rem;
+  padding-left: 1rem;
+  font-size: 4rem;
+}

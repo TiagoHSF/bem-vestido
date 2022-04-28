@@ -1,0 +1,7 @@
+<div [ngClass]="!this.expanded ? 'sidebar' : 'sidebar-expanded'">
+  <mat-icon class="icon" (click)="expand()">reorder</mat-icon>
+  <mat-icon class="icon">shopping_cart</mat-icon>
+  <h2 *ngIf="this.expanded">CARRINHO</h2>
+  <mat-icon class="icon">chat</mat-icon>
+  <h2 *ngIf="this.expanded">CHAT</h2>
+</div>
