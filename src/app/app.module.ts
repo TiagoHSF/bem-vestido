@@ -7,9 +7,10 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { SidebarComponent } from "./sidebar/sidebar.component";
 import { MatSliderModule } from "@angular/material/slider";
 import { MatIconModule } from "@angular/material/icon";
+import { ClothesComponent } from './clothes/clothes.component';
 
 @NgModule({
-  declarations: [AppComponent, SidebarComponent],
+  declarations: [AppComponent, SidebarComponent, ClothesComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
